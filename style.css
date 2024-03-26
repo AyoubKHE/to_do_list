@@ -1,0 +1,114 @@
+body {
+    background-color: #19003E;
+}
+
+.my-container {
+    margin-top: 100px;
+    width: 60%;
+    padding: 0;
+}
+
+.my-header {
+    background-color: #522E91;
+    padding: 5px;
+    margin: 0;
+}
+
+.plus-background {
+    
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    border-radius: 50px;
+}
+
+.plus-background i {
+    color: #522E91;
+    margin-left: 9px;
+    margin-top: 8px;
+}
+
+.my-header p {
+    margin-block: 0;
+    text-align: center;
+    margin-top: 2px;
+    color: white;
+}
+
+
+
+main {
+    background-color: #EEEEEC;
+    height: 100px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 10px;
+    margin: 0;
+}
+
+li {
+    background-color: white;
+    border-bottom: solid 2px #522E91;
+    transition: box-shadow 0.2s;
+}
+
+li:hover {
+    box-shadow: 0px 3px 15px rgba(97, 97, 97, 0.843);
+}
+
+.my-row {
+    margin: 0;
+}
+
+.todo-titre {
+    font-weight: bold;
+}
+
+.supprimer-background,
+.check-background,
+.times-background,
+.modifier-background {
+    width: 25px;
+    height: 25px;
+    border-radius: 50px;
+    margin: auto;
+    background-color: red;
+}
+
+.supprimer-background i {
+    color: white;
+    margin-left: 6px;
+    margin-top: 4px;
+}
+
+.check-background {
+    background-color: green;
+}
+
+.check-background i {
+    color: white;
+    margin-left: 5px;
+    margin-top: 4px;
+}
+
+.times-background {
+    background-color: purple;
+}
+
+.times-background i {
+    color: white;
+    margin-left: 6px;
+    margin-top: 4px;
+}
+
+.modifier-background {
+    background-color: blue;
+}
+
+.modifier-background i {
+    color: white;
+    margin-left: 6px;
+    margin-top: 4px;
+}
